@@ -1,0 +1,150 @@
+body {
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  /* background-color: #a8e912; */
+  background-color: orange;
+  color: white;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 5rem;
+  margin-bottom: 3rem;
+}
+
+h3 {
+  margin: 3rem 0 1rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+div[type=button]:hover {
+  cursor: pointer;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5% 0;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.maxLevelCompleted {
+  color: #000000;
+  font-size: 0.8rem;
+}
+
+.instructions {
+  font-family: 'arial', cursive;
+  font-size: 1rem;
+  color: black;
+  border: solid;
+}
+
+.btn {
+  margin: 3% 2%;
+  display: inline-block;
+  height: 130px;
+  width: 130px;
+  border: 5px solid black;
+}
+
+.btn-lg {
+  margin: 25px 0 2rem;
+  display: inline-block;
+  height: auto;
+  width: 300px;
+  border: 5px solid black;
+  font-size: 2rem;
+}
+
+.game-over {
+  background-color: black;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: #ff0000;
+}
+
+.green {
+  background-color: #0af80a;
+}
+
+.blue {
+  background-color: #0000ff;
+}
+
+.yellow {
+  background-color: #FFFF00;
+}
+
+.black{
+  background-color: #000000;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: #413a3a;
+}
+
+/* media */
+@media (max-width: 680px) {
+
+  .btn {
+    margin: 3% 2%;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+  }
+  
+  .btn-lg {
+    margin: 15px 0 0;
+    display: inline-block;
+    height: auto;
+    width: 230px;
+    border: 5px solid black;
+    font-size: 1rem;
+  }
+  
+}
+
+@media (max-width: 576px) {
+
+  .container {
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+
+  .btn {
+    margin: 2% 1%;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    border: 3px solid black;
+  }
+  
+  .btn-lg {
+    margin: 10px 0 0;
+    display: inline-block;
+    height: auto;
+    width: 150px;
+    border: 3px solid black;
+    font-size: 1rem;
+  }
+  
+}
