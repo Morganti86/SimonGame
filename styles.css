@@ -32,7 +32,7 @@ div[type=button]:hover {
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
-  margin:  5% 0;
+  margin:  3% 0;
 }
 
 .container {
@@ -43,7 +43,7 @@ div[type=button]:hover {
 
 .maxLevelCompleted {
   color: #000000;
-  font-size: 0.8rem;
+  font-size: 1.2rem;
 }
 
 .instructions {
@@ -56,8 +56,8 @@ div[type=button]:hover {
 .btn {
   margin: 3% 2%;
   display: inline-block;
-  height: 130px;
-  width: 130px;
+  height: 180px;
+  width: 180px;
   border: 5px solid black;
 }
 
@@ -65,7 +65,7 @@ div[type=button]:hover {
   margin: 25px 0 2rem;
   display: inline-block;
   height: auto;
-  width: 300px;
+  width: 410px;
   border: 5px solid black;
   font-size: 2rem;
 }
@@ -100,7 +100,12 @@ div[type=button]:hover {
   background-color: #413a3a;
 }
 
-/* media */
+.footer {
+  font-size: 1rem;
+  margin: 2% 5%;
+}
+
+/* media
 @media (max-width: 680px) {
 
   .btn {
@@ -133,8 +138,8 @@ div[type=button]:hover {
   .btn {
     margin: 2% 1%;
     display: inline-block;
-    height: 60px;
-    width: 60px;
+    height: 200px;
+    width: 200px;
     border: 3px solid black;
   }
   
@@ -147,4 +152,4 @@ div[type=button]:hover {
     font-size: 1rem;
   }
   
-}
+} */
