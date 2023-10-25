@@ -128,20 +128,20 @@ div[type="button"]:hover {
   }
 
   h5 {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 
   .instructions {
     margin: 5%;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 
   #level-title {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
   }
 
   .maxLevelCompleted {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 
   .btn {
@@ -156,6 +156,6 @@ div[type="button"]:hover {
   }
 
   .footer {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 }
