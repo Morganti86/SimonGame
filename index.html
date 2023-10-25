@@ -1,54 +1,42 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simon Game</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P"
+      rel="stylesheet" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <title>Simon Game</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
-</head>
+  <body>
+    <h1>SIMON GAME</h1>
 
-<body>
-  <h1>SIMON GAME</h1>
+    <h5>
+      <a href="instructions.html">Click for instructions!</a>
+    </h5>
 
-  <h3>
-    <a href="instructions.html">Click for instructions!</a>
-  </h3>
+    <h3 id="level-title" >Press START to play</h3>
 
-  <h3 id="level-title">Press START to play</h3>
+    <p class="maxLevelCompleted">Max level completed:</p>
 
-  <div class="container">
+    <div class="GameContainer">
+        <div type="button" id="green" class="btn green"></div>
 
-    <p class="maxLevelCompleted">Max level completed: </p>
+        <div type="button" id="red" class="btn red"></div>
 
-    <div class="row">
+        <div type="button" id="yellow" class="btn yellow"></div>
 
-      <div type="button" id="green" class="btn green"></div>
-
-      <div type="button" id="red" class="btn red"></div>
-
+        <div type="button" id="blue" class="btn blue"></div>
     </div>
 
-    <div class="row">
+    <div type="button" id="start" class="btn-lg">START</div>
 
-      <div type="button" id="yellow" class="btn yellow"></div>
+    <p class="footer">© Morganti86</p>
 
-      <div type="button" id="blue" class="btn blue"></div>
-
-    </div>
-
-  </div>
-
-  <div type="button" id="start" class="btn-lg black">START</div>
-
-  <div class="footer">© Morganti86</div>
-
-
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-  <script src="game.js"></script>
-
-</body>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="game.js"></script>
+  </body>
 </html>

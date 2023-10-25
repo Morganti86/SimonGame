@@ -1,73 +1,83 @@
 body {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   text-align: center;
-  /* background-color: #a8e912; */
   background-color: orange;
-  color: white;
-  font-weight: 600;
+  color: #2b2b2b;
+  width: 50%;
+  margin: auto;
+  align-items: center;
 }
 
 h1 {
-  font-size: 5rem;
-  margin-bottom: 3rem;
+  font-size: 4rem;
+  margin-bottom: 4rem;
+  font-weight: 600;
 }
 
-h3 {
-  margin: 3rem 0 1rem;
+h5 {
+  font-size: 1rem;
+  margin: 2rem;
 }
 
 a {
-  color: white;
-  text-decoration: none;
+  color: #2b2b2b;
+  text-decoration: underline;
+  text-decoration-color: #2b2b2b;
 }
 
 button:hover {
   cursor: pointer;
 }
 
-div[type=button]:hover {
+div[type="button"]:hover {
   cursor: pointer;
 }
 
 #level-title {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 3rem;
-  margin:  3% 0;
-}
-
-.container {
-  display: block;
-  width: 50%;
-  margin: auto;
+  font-family: "Press Start 2P", cursive;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 3rem;
 }
 
 .maxLevelCompleted {
-  color: #000000;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .instructions {
-  font-family: 'arial', cursive;
+  font-family: "arial", cursive;
   font-size: 1rem;
-  color: black;
   border: solid;
+  padding: 3%;
+  text-align: left;
+}
+
+.GameContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  justify-content: center;
 }
 
 .btn {
-  margin: 3% 2%;
-  display: inline-block;
-  height: 165px;
-  width: 165px;
-  border: 3px solid black;
+  height: 180px;
+  width: 180px;
+  border: 1px solid #2b2b2b;
+  margin: 2%;
 }
 
 .btn-lg {
   margin: 25px 0 2rem;
+  padding: 1%;
   display: inline-block;
   height: auto;
-  width: 375px;
-  border: 5px solid black;
+  width: 370px;
+  border: 1px solid #2b2b2b;
   font-size: 2rem;
+  color: ivory;
+  /* background-color: #2b2b2b; */
+  background-color: black;
 }
 
 .game-over {
@@ -88,68 +98,64 @@ div[type=button]:hover {
 }
 
 .yellow {
-  background-color: #FFFF00;
+  background-color: #ffff00;
 }
 
-.black{
+/* .black {
   background-color: #000000;
-}
+} */
 
 .pressed {
   box-shadow: 0 0 20px white;
-  background-color: #413a3a;
+  background-color: #2b2b2b;
 }
 
 .footer {
   font-size: 1rem;
-  margin: 2% 5%;
+  margin: 3% 5%;
+  color: black;
 }
 
-/* media
-@media (max-width: 680px) {
+@media (max-width: 768px) {
+  body {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h5 {
+    font-size: 0.7rem;
+  }
+
+  .instructions {
+    margin: 5%;
+    font-size: 0.7rem;
+  }
+
+  #level-title {
+    font-size: 0.9rem;
+  }
+
+  .maxLevelCompleted {
+    font-size: 0.7rem;
+  }
 
   .btn {
-    margin: 3% 2%;
-    display: inline-block;
     height: 100px;
     width: 100px;
-    border: 5px solid black;
+    margin-bottom: 3%;
   }
-  
+
   .btn-lg {
-    margin: 15px 0 0;
-    display: inline-block;
-    height: auto;
-    width: 230px;
-    border: 5px solid black;
+    width: 205px;
     font-size: 1rem;
   }
-  
+
+  .footer {
+    font-size: 0.7rem;
+  }
 }
-
-@media (max-width: 576px) {
-
-  .container {
-    display: block;
-    width: 80%;
-    margin: auto;
-  }
-
-  .btn {
-    margin: 2% 1%;
-    display: inline-block;
-    height: 200px;
-    width: 200px;
-    border: 3px solid black;
-  }
-  
-  .btn-lg {
-    margin: 10px 0 0;
-    display: inline-block;
-    height: auto;
-    width: 150px;
-    border: 3px solid black;
-    font-size: 1rem;
-  }
-  
-} */
