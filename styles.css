@@ -53,30 +53,29 @@ div[type="button"]:hover {
 }
 
 .GameContainer {
-  display: flex;
-  flex-wrap: wrap;
-  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 60%;
   margin: auto;
-  justify-content: center;
+  border: 1px solid #2b2b2b;
 }
 
 .btn {
-  height: 180px;
-  width: 180px;
+  height: 150px;
+  width: auto;
+  max-width: none;
+  cursor: pointer;
   border: 1px solid #2b2b2b;
-  margin: 2%;
 }
 
 .btn-lg {
-  margin: 25px 0 2rem;
-  padding: 1%;
+  margin: 5% 0;
   display: inline-block;
   height: auto;
-  width: 370px;
+  width: 60%;
   border: 1px solid #2b2b2b;
   font-size: 2rem;
   color: ivory;
-  /* background-color: #2b2b2b; */
   background-color: black;
 }
 
@@ -112,7 +111,7 @@ div[type="button"]:hover {
 
 .footer {
   font-size: 1rem;
-  margin: 3% 5%;
+  margin: 5%;
   color: black;
 }
 
@@ -146,12 +145,10 @@ div[type="button"]:hover {
 
   .btn {
     height: 100px;
-    width: 100px;
-    margin-bottom: 3%;
+    /* width: 100px; */
   }
 
   .btn-lg {
-    width: 205px;
     font-size: 1rem;
   }
 
